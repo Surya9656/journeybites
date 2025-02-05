@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>journeybites</title>
+    <link rel="stylesheet" href="./css/booking.css">
+    <link
+      rel="shortcut icon"
+      href="./icons/LOGO.svg" 
+      type="image/x-icon"
+    />
+  </head>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/navbar.css" />
+  <link rel="stylesheet" href="./css/sidebar.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <script src="./js/app.js" defer></script>
+  <body>
+    <!-- nav section start -->
+    <nav class="nav-container">
+      <div class="nav-center wrapper">
+        <div class="logo-section">
+          <a href="./"
+            ><img
+              src="./icons/journeybites.svg"
+              alt="university logo" width="180px" 
+              class="logo"
+          /></a>
+        </div>
+        <div class="hamburger">
+          <img src="./icons/bars.svg" alt="sidebar button" />
+        </div>
+        <div class="nav-links-main">
+          <ul class="nav-links">
+            <li><a class="nav-link" href="./">Home</a></li>
+            <li><a class="nav-link active" href="./booking.html">booking</a></li>
+            <li><a class="nav-link" href="./food.html">food</a></li>
+            <li><a class="nav-link" href="./contact.html">contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-social-links-main">
+          <ul class="nav-social-links">
+            <li class="nav-social-link">
+              <a
+                href="./status.html"
+                target="_blank"
+              >
+                <img  src="https://static.vecteezy.com/system/resources/previews/010/155/649/original/transport-train-icon-sign-design-free-png.png" alt="train"  />
+              </a>
+            </li>
+            <li class="nav-social-link">
+              <a
+                href="https://www.google.co.in/maps"
+                target="_blank"
+              >
+                <img src="./icons/map1.png" alt="map"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav section end -->
+
+    <!-- sidebar section start -->
+    <aside class="sidebar-container">
+      <div class="sidebar-center wrapper">
+        <div class="side-header">
+          <div class="logo-section">
+            
+          </div>
+          <div class="close-button">
+            <img src="./icons/close.svg" alt="sidebar close" />
+          </div>
+        </div>
+        <div class="sidebar-content">
+          <div class="sidebar-links-main paddingTopMobile-fifty">
+            <ul class="sidebar-links">
+              <li><a class="nav-link " href="./">Home</a></li>
+              <li><a class="nav-link active" href="./booking.html">booking</a></li>
+              <li><a class="nav-link" href="./food.html">food</a></li>
+              <li><a class="nav-link" href="./contact.html">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+  <div class="body">
+    <div class="body-img">
+      <img src="./icons/" alt="">
+    </div>
+  </div>
+  <section>
+    <div class="booking-container">
+        <h2>Train Ticket Booking</h2>
+        <form>
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" required>
+            
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" required>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="class">Class:</label>
+            <select id="class" name="class" required>
+                <option value="Choose">Choose</option>
+                <option value="First class">First class</option>
+                <option value="Second Class">Second Class</option>
+                <option value="Third Class">Third Class</option>
+                <option value="Sleeper Class">Sleeper Class</option>
+            </select>
+            <label for="Berth">Berth:</label>
+
+            <select id="Preferrence" name="Preferrence" required>
+                <option value="No Preferrence">No Preferrence</option>
+                <option value="Side Upper">Side Upper</option>
+                <option value="Side Lower">Side Lower</option>
+                <option value="Lower Berth">Lower Berth</option>
+                <option value="Middle Berth">Middle Berth</option>
+                <option value="Upper Berth">Upper Berth</option>
+            </select>
+            
+            <label for="passengers">Passengers:</label>
+            <input type="number" id="passengers" name="passengers" min="1" max="6" required>
+            
+            <button type="submit">Book Ticket</button>
+        </form>
+    </div>
+  </section>
+  <!-- footer section start -->
+  <div class="footer-container">
+    <div class="footer-center wrapper">
+      <div class="footer-links-main">
+        <ul class="footer-links">
+          <li><a class="footer-link" href="./">Home</a></li>
+          <li><a class="footer-link active" href="./booking.html">booking</a></li>
+          <li><a class="footer-link" href="./food.html">Food</a></li>
+          <li>
+            <a class="footer-link" href="./contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="social-links-main">
+        <ul class="social-links">
+          <li class="social-link">
+            <a
+              href="https://www.linkedin.com/in/mahesh-veera-venkata-surya-kandipalli-9a46a9250"
+              target="_blank"
+            >
+              <img src="./icons/linkedin.svg" alt="srikanth linkedin" />
+            </a>
+          </li>
+          <li class="social-link">
+            <a
+              href="https://www.instagram.com/_s_u_r_y_a__14/"
+              target="_blank"
+            >
+              <img src="./icons/instagram.svg" alt="surya instagram" />
+            </a>
+          </li>
+          <li class="social-link">
+            <a href="https://github.com/Surya9656" target="_blank">
+              <img src="./icons/github.svg" alt="surya github" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-copy-right">
+        <p>
+          ©2024 - <span class="copyright-date">2025</span> ,
+          suryakandipalli
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- footer section end -->
+  
+</body>
+</html>

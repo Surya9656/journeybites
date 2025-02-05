@@ -1,0 +1,162 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>journeybites</title>
+    
+    <link rel="stylesheet" href="./css/status.css">
+    <link
+      rel="shortcut icon"
+      href="./icons/LOGO.svg" 
+      type="image/x-icon"
+    />
+  </head>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/navbar.css" />
+  <link rel="stylesheet" href="./css/sidebar.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <script src="./js/app.js" defer></script>
+  <body>
+    <!-- nav section start -->
+    <nav class="nav-container">
+      <div class="nav-center wrapper">
+        <div class="logo-section">
+          <a href="./"
+            ><img
+              src="./icons/journeybites.svg"
+              alt="university logo" width="180px" 
+              class="logo"
+          /></a>
+        </div>
+        <div class="hamburger">
+          <img src="./icons/bars.svg" alt="sidebar button" />
+        </div>
+        <div class="nav-links-main">
+          <ul class="nav-links">
+            <li><a class="nav-link" href="./">Home</a></li>
+            <li><a class="nav-link " href="./booking.html">booking</a></li>
+            <li><a class="nav-link" href="./food.html">food</a></li>
+            <li><a class="nav-link" href="./contact.html">contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-social-links-main">
+          <ul class="nav-social-links">
+
+            <li class="nav-social-link">
+              <a
+                href="https://www.google.co.in/maps"
+                target="_blank"
+              >
+                <img src="./icons/map1.png" alt="map"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav section end -->
+
+    <!-- sidebar section start -->
+    <aside class="sidebar-container">
+      <div class="sidebar-center wrapper">
+        <div class="side-header">
+          <div class="logo-section">
+            
+          </div>
+          <div class="close-button">
+            <img src="./icons/close.svg" alt="sidebar close" />
+          </div>
+        </div>
+        <div class="sidebar-content">
+          <div class="sidebar-links-main paddingTopMobile-fifty">
+            <ul class="sidebar-links">
+              <li><a class="nav-link " href="./">Home</a></li>
+              <li><a class="nav-link " href="./booking.html">booking</a></li>
+              <li><a class="nav-link" href="./food.html">food</a></li>
+              <li><a class="nav-link" href="./contact.html">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+  <div class="body">
+    <div class="body-img">
+      <img src="./icons/" alt="">
+    </div>
+  </div>
+  <section>
+    <div class="container">
+        <h2>Running Status</h2>
+        <input style="font-size: 15px;" type="text" id="trainNumber" placeholder="Enter Train Number/Name">
+        <button onclick="getTrainStatus()">Check Status</button>
+        <div class="status" id="status"></div>
+    </div>
+
+    
+</section>
+  <section>
+    <div class="container">
+        <h2>PNR Status</h2>
+        <input type="text" id="trainNo" placeholder="Enter PNR Number">
+        <button onclick="getTrainStatus()">Check Status</button>
+        <div class="status" id="trainstatus"></div>
+    </div>
+
+    
+</section>
+  <!-- footer section start -->
+  <div class="footer-container">
+    <div class="footer-center wrapper">
+      <div class="footer-links-main">
+        <ul class="footer-links">
+          <li><a class="footer-link" href="./">Home</a></li>
+          <li><a class="footer-link" href="./booking.html">booking</a></li>
+          <li><a class="footer-link" href="./food.html">Food</a></li>
+          <li>
+            <a class="footer-link active" href="./contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="social-links-main">
+        <ul class="social-links">
+          <li class="social-link">
+            <a
+              href="https://www.linkedin.com/in/mahesh-veera-venkata-surya-kandipalli-9a46a9250"
+              target="_blank"
+            >
+              <img src="./icons/linkedin.svg" alt="srikanth linkedin" />
+            </a>
+          </li>
+          <li class="social-link">
+            <a
+              href="https://www.instagram.com/_s_u_r_y_a__14/"
+              target="_blank"
+            >
+              <img src="./icons/instagram.svg" alt="surya instagram" />
+            </a>
+          </li>
+          <li class="social-link">
+            <a href="https://github.com/Surya9656" target="_blank">
+              <img src="./icons/github.svg" alt="surya github" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-copy-right">
+        <p>
+          ©2024 - <span class="copyright-date">2025</span> ,
+          suryakandipalli
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- footer section end -->
+  
+</body>
+</html>
