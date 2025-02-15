@@ -153,6 +153,10 @@
     .four-column-layout {
       grid-template-columns: 1fr 1fr;
     }
+    .contact-promotion .contact-promo-img{
+      height: 400px;
+      width: 100%;
+    }
   }
   @media screen and (min-width: 992px) {
     .four-column-layout {
